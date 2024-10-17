@@ -17,4 +17,18 @@ public class OperationsTest {
         int result = Operations.subtraction(-4, -7);
         assertEquals(-3, result);
     }
+
+    @Test
+    public void testmultiplicationPositive() {
+        System.out.println("Subtracting positive values");
+        int result = Operations.multiplication(5,10);
+        assertEquals(50, result);
+    }
+
+    @Test
+    public void testmultiplicationNegative() {
+        System.out.println("Multiplying negative Values");
+        int result = Operations.multiplication(-4, -3);
+        assertEquals(12, result);
+    }
 }
