@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 public class OperationsTest {
 
+    // Testing for the Subtraction operation with positive and negative values
     @Test
     public void testsubtractionPositive() {
         System.out.println("Subtracting positive values");
@@ -18,6 +19,7 @@ public class OperationsTest {
         assertEquals(-3, result);
     }
 
+    // Testing for the multiplation operation with positive and negative values
     @Test
     public void testmultiplicationPositive() {
         System.out.println("Subtracting positive values");
